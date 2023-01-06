@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BioHack Academy</title>
+    <description>Waag's Biohack Academy is an intense 10 week biohacking course held in the Fablab Amsterdam and Open Wetlab.
+</description>
+    <link>http://biohackacademy.github.io/</link>
+    <atom:link href="http://biohackacademy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 06 Jan 2023 19:15:41 +0100</pubDate>
+    <lastBuildDate>Fri, 06 Jan 2023 19:15:41 +0100</lastBuildDate>
+    <generator>Jekyll v3.9.2</generator>
+    
+      <item>
+        <title>Graduation Magazine</title>
+        <description>&lt;p&gt;Dear Biohackers,&lt;/p&gt;
+
+&lt;p&gt;One last update from me about the magnificent time we had. As promised, we compiled a magazine out of all the highlights you submitted and from your documentation pages. Please find the result attached. Keep it as a memory, or share it with friends!&lt;/p&gt;
+
+&lt;p&gt;Download the &lt;a href=&quot;/biofactory/BHA Magazine - Low Res.pdf&quot;&gt;BHA Magazine&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All the best,&lt;/p&gt;
+
+&lt;p&gt;Pieter&lt;/p&gt;
+</description>
+        <pubDate>Tue, 21 Apr 2015 15:57:00 +0200</pubDate>
+        <link>http://biohackacademy.github.io/biofactory/update/2015-4/2015/04/21/graduation.html</link>
+        <guid isPermaLink="true">http://biohackacademy.github.io/biofactory/update/2015-4/2015/04/21/graduation.html</guid>
+        
+        
+        <category>biofactory</category>
+        
+        <category>update</category>
+        
+        <category>2015-4</category>
+        
+      </item>
+    
+      <item>
+        <title>Update Week 9</title>
+        <description>&lt;p&gt;Hello everyone,&lt;/p&gt;
+
+&lt;p&gt;Are you getting nervous for the Graduation Show yet? In just one more week the BioHack Academy will be over. We hope you feel ready to spread your wings and take off into the wonderful biohacking world on your own. Over the next few days we will review your documentation sites and give you some final instructions during the Show before you fly out.&lt;/p&gt;
+
+&lt;h1 id=&quot;schedule-for-next-monday-and-tuesday&quot;&gt;Schedule for next Monday and Tuesday&lt;/h1&gt;
+
+&lt;p&gt;Monday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-18:00 Open Lab&lt;/p&gt;
+
+&lt;p&gt;Tuesday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-16:00 Open Lab
+16:00-17:00 Lab Clean up
+19:00-late: Graduation Show&lt;/p&gt;
+
+&lt;h1 id=&quot;graduation-show&quot;&gt;Graduation Show&lt;/h1&gt;
+
+&lt;p&gt;The Graduation Show is open to the public, so please feel most welcome to invite your friends and family to take a look at your hacks and be proud of you: https://waag.org/en/event/biohack-academy-graduation-show&lt;/p&gt;
+
+&lt;h1 id=&quot;tessels-questionare&quot;&gt;Tessel’s Questionare&lt;/h1&gt;
+
+&lt;p&gt;May I please remind you that Tessel is still expecting a filled in questionare forms from some of you.&lt;/p&gt;
+
+&lt;h1 id=&quot;continuing-your-work-at-the-lab&quot;&gt;Continuing your work at the lab&lt;/h1&gt;
+
+&lt;p&gt;A number of you have indicated an interest in continuing your work at the Wetlab after the BHA is over. We estimated that we can facilitate another 8 weeks of hacking (2 days a week) for 500 euros. For that to work we do need a minimum number of 4 people. So please send me an email if you want to be one of those.&lt;/p&gt;
+
+&lt;h1 id=&quot;documentation&quot;&gt;Documentation&lt;/h1&gt;
+
+&lt;p&gt;Please make sure you answer the following questions as much as possible in your documentation:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What does the reactor do? What product has been made?&lt;/li&gt;
+  &lt;li&gt;From what designs is it derived?&lt;/li&gt;
+  &lt;li&gt;Which parts have been custom made, by what machine?&lt;/li&gt;
+  &lt;li&gt;What are all the components and how much do they cost?&lt;/li&gt;
+  &lt;li&gt;How is it assembled?&lt;/li&gt;
+  &lt;li&gt;What can be improved?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All the best,&lt;/p&gt;
+
+&lt;p&gt;The BHA Team&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Apr 2015 15:57:00 +0200</pubDate>
+        <link>http://biohackacademy.github.io/biofactory/update/2015-4/2015/04/19/update-9.html</link>
+        <guid isPermaLink="true">http://biohackacademy.github.io/biofactory/update/2015-4/2015/04/19/update-9.html</guid>
+        
+        
+        <category>biofactory</category>
+        
+        <category>update</category>
+        
+        <category>2015-4</category>
+        
+      </item>
+    
+      <item>
+        <title>Update Week 8</title>
+        <description>&lt;p&gt;Dear BioHackers,&lt;/p&gt;
+
+&lt;p&gt;Just two more weeks until the Graduation Show! So it’s time to make your final designs and complete your experiments. In order to give you as much room for that as possible, we will not have any group workshops anymore apart from the regular lecture.&lt;/p&gt;
+
+&lt;p&gt;We will also send you a separate email with more details on the graduation show shortly.&lt;/p&gt;
+
+&lt;h1 id=&quot;schedule-for-next-monday-and-tuesday&quot;&gt;Schedule for next Monday and Tuesday&lt;/h1&gt;
+
+&lt;p&gt;Monday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-18:00 Open Lab: do your final tests and experiments&lt;/p&gt;
+
+&lt;p&gt;Tuesday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-12:30 Open Lab
+12:30-13:30 Lunch break
+13:30-14:30 BHA Truth Booth
+14:30-18:00 Open Lab
+19:00-21:00 Class 9: Bioreactor Controller&lt;/p&gt;
+
+&lt;h1 id=&quot;bha-truth-booth&quot;&gt;BHA Truth Booth&lt;/h1&gt;
+
+&lt;p&gt;Let’s be honoust, most of us find documentation boring and tedious. So let’s hack that! 
+On Tuesday we will set up a “BioHack Academy Truth Booth”. A small video studio in which you can “confess” your hacks in 1 minute. So don’t forget to bring along what you want to show. The videos will be published in the BioHack Academy Vimeo channel and used during the ceremony.&lt;/p&gt;
+
+&lt;h1 id=&quot;adam-brown&quot;&gt;Adam Brown&lt;/h1&gt;
+
+&lt;p&gt;On Tuesday evening Adam Brown will present his work. He is well know for conducting experiments with gold harvesting microbes and his attempts to redo amino acid synthesis experiments using basic elements and lightning.&lt;/p&gt;
+
+&lt;h1 id=&quot;assignment--documentation&quot;&gt;Assignment / Documentation&lt;/h1&gt;
+
+&lt;p&gt;Your assignment is to work on the documentation of the project. Please answer the following questions on your documentation site:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What does the reactor do? What product has been made?&lt;/li&gt;
+  &lt;li&gt;From what designs is it derived?&lt;/li&gt;
+  &lt;li&gt;Which parts have been custom made, by what machine?&lt;/li&gt;
+  &lt;li&gt;What are all the components and how much do they cost?&lt;/li&gt;
+  &lt;li&gt;How is it assembled?&lt;/li&gt;
+  &lt;li&gt;What can be improved?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;slides--videos&quot;&gt;Slides &amp;amp; videos&lt;/h1&gt;
+&lt;p&gt;The slides of this week’s lecture can be found as usual in the syllabus:
+http://biohackacademy.github.io/biofactory/class/8-pumps/&lt;/p&gt;
+
+&lt;p&gt;The videos can be found in http://www.vimeo.com/biohackacademy&lt;/p&gt;
+
+&lt;p&gt;See you next week!&lt;/p&gt;
+
+&lt;p&gt;The BHA Team&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Apr 2015 15:57:00 +0200</pubDate>
+        <link>http://biohackacademy.github.io/biofactory/update/2015-4/2015/04/09/update-8.html</link>
+        <guid isPermaLink="true">http://biohackacademy.github.io/biofactory/update/2015-4/2015/04/09/update-8.html</guid>
+        
+        
+        <category>biofactory</category>
+        
+        <category>update</category>
+        
+        <category>2015-4</category>
+        
+      </item>
+    
+      <item>
+        <title>Update Week 7</title>
+        <description>&lt;p&gt;Hello BioHackers,&lt;/p&gt;
+
+&lt;p&gt;Next week starts with a day off, the lab will be closed on Monday. On Tuesday we will catch up again and do our final group workshop, derived from a well know chemistry magic trick.&lt;/p&gt;
+
+&lt;p&gt;Let me remind you that as we move closer towards to end of the course, the use of the laser cutter can become a bottleneck for producing your designs. Please reserve a timeslot that you need in the Google Calendar.&lt;/p&gt;
+
+&lt;h1 id=&quot;schedule-for-next-monday-and-tuesday&quot;&gt;Schedule for next Monday and Tuesday&lt;/h1&gt;
+
+&lt;p&gt;Monday:&lt;/p&gt;
+
+&lt;p&gt;2nd Easter Day - Lab closed&lt;/p&gt;
+
+&lt;p&gt;Tuesday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-12:30 Iodine Clock Reaction spectrometry workshop
+12:30-13:30 Lunch break
+13:30-14:30 Assignment meeting
+14:30-18:00 Open Lab
+19:00-21:00 Class 8: Pumps&lt;/p&gt;
+
+&lt;h1 id=&quot;adam-brown&quot;&gt;Adam Brown&lt;/h1&gt;
+
+&lt;p&gt;Lucas announced last night that on April 14th Adam Brown will give a presentation during the weekly lecture. He is well know for conducting experiments with gold harvesting microbes and his attempts to redo amino acid synthesis experiments using basic elements and lightning.&lt;/p&gt;
+
+&lt;h1 id=&quot;assignment&quot;&gt;Assignment&lt;/h1&gt;
+
+&lt;p&gt;Your assignment is to hack the spectrometer. Our suggestions would be to turn it into a flow spectrometer, add a user interface on the device itself, calibrate it with lasers and in Barcelona they decided to switch the white LED for a specific wavelenght like 660 nm for doing specific measurements.&lt;/p&gt;
+
+&lt;h1 id=&quot;slides--videos&quot;&gt;Slides &amp;amp; videos&lt;/h1&gt;
+&lt;p&gt;We uploaded the slides as usual to the syllabus:
+http://biohackacademy.github.io/biofactory/class/7-spectrometer/&lt;/p&gt;
+
+&lt;p&gt;See you next week, we wish you a happy easter!&lt;/p&gt;
+
+&lt;p&gt;The BHA Team&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Apr 2015 15:57:00 +0200</pubDate>
+        <link>http://biohackacademy.github.io/biofactory/update/2015-4/2015/04/01/update-7.html</link>
+        <guid isPermaLink="true">http://biohackacademy.github.io/biofactory/update/2015-4/2015/04/01/update-7.html</guid>
+        
+        
+        <category>biofactory</category>
+        
+        <category>update</category>
+        
+        <category>2015-4</category>
+        
+      </item>
+    
+      <item>
+        <title>Update Week 6</title>
+        <description>&lt;p&gt;Dear BioHackers,&lt;/p&gt;
+
+&lt;p&gt;This is your weekly update mail, starting with some exciting news! Gerrit, who has been participating on his own by remote thus far will join us next week in the lab. Let’s give him a warm welcome on Monday!&lt;/p&gt;
+
+&lt;p&gt;Another important thing to notice is the change in structure of the lab days for next week. Instead of group workshops we will start with one-on-one coaching sessions. During these session I can help you out with specific challenges you are dealing with, such as designing your experiments, building hardware and documentation. Please take a close look at the schedule below to find out what time slot has been allocated to you. In case you prefer some different time slot, just let me know.&lt;/p&gt;
+
+&lt;p&gt;Apart from these one-on-one meetings the lab will be open to you both days. Don’t forget to reserve the fablab machines, in case you intend to use them: http://biohackacademy.github.io/biofactory/annex/machine-equipment-guide/&lt;/p&gt;
+
+&lt;h1 id=&quot;schedule-for-next-monday-and-tuesday&quot;&gt;Schedule for next Monday and Tuesday&lt;/h1&gt;
+
+&lt;p&gt;Monday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-10:45 Giacomo
+10:45-11:00 Eiso
+11:00-11:15 Yuan
+11:15-11:30 Jurjen
+11:30-11:45 Tony
+11:45-12:00 Claudia
+12:15-12:30 Eline
+12:30-12:45 Dragoslav
+12:45-13:45 Lunch break
+13:45-14:00 Tamara
+14:00-14:15 Martin
+14:15-14:30 Gerrit
+14:30-14:45 Vittorio
+15:00-15:15 Jamillah
+15:15-15:30 Andrea&lt;/p&gt;
+
+&lt;p&gt;Tuesday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-12:30 Open Lab
+12:30-13:30 Lunch break
+13:30-14:30 Assignment meeting
+14:30-18:00 Open Lab
+19:00-21:00 Class 7: Spectrometers&lt;/p&gt;
+
+&lt;h1 id=&quot;assigment&quot;&gt;Assigment&lt;/h1&gt;
+&lt;p&gt;This week you have only one assignment:&lt;/p&gt;
+
+&lt;p&gt;1) Design the dimensions and fluxes of your bioreactor&lt;/p&gt;
+
+&lt;h1 id=&quot;contact-details-and-examples-of-rüdiger&quot;&gt;Contact details and examples of Rüdiger&lt;/h1&gt;
+&lt;p&gt;Yesterday evening our Graduation Board member Rüdiger Trojok joined the lecture. Here is the info he promised to send you guys:&lt;/p&gt;
+
+&lt;p&gt;“I want to refer to cooking recipes.
+Everyone knows granmas best recipes and most of the times these are described in awesome old fashioned cookbooks. They are short, clear and give you necessary information with an adequat requirement for pre-learned knowledge. Here two pages describing recipe writing:
+http://www.wikihow.com/Write-a-Recipe
+http://www.thekitchn.com/how-to-write-a-recipe-58522
+Of course not all rules can be applied to biotech, but it is a good  inspiration what to look after. Additionally, people can add all sorts of academic style writing elements to their protocol if they want to go pro.”&lt;/p&gt;
+
+&lt;p&gt;Here are some of my favorites:
+Protocol: Yeastograms: http://pavillon35.polycinease.com/recipe-1-yeastograms/
+Protocol: Mud batteries: http://www.instructables.com/id/Create-your-own-mud-battery-Bouw-je-eigen-modderba/
+Hardware documentation: RWXBioFuge: https://github.com/PieterVanBoheemen/RWXBioFuge&lt;/p&gt;
+
+&lt;p&gt;For additional information on BioCommons, SYNENERGENE and other work by Rüdiger you can contact him by email: “Rüdiger Trojok” &lt;a href=&quot;mailto:rt@openbioprojects.net&quot;&gt;rt@openbioprojects.net&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;pumps&quot;&gt;Pumps&lt;/h1&gt;
+&lt;p&gt;Again we published the design of a new lab utility two weeks in advance of the lecture. This time you may choose from two different pump designs. The syringe pump is most useful for small fed batch reactors, while the peristaltic pumps are most often used for chemostats.&lt;/p&gt;
+
+&lt;p&gt;http://biohackacademy.github.io/biofactory/class/8-pumps/&lt;/p&gt;
+
+&lt;p&gt;Go ahead and order the components as listed in the Bill of Materials, or seek your own alternatives.&lt;/p&gt;
+
+&lt;h1 id=&quot;slides--videos&quot;&gt;Slides &amp;amp; videos&lt;/h1&gt;
+&lt;p&gt;Our videoproducer Hany was ill today, so the videos are not online yet. You will receive an update once we made them available.
+The slides of last night can be found in the syllabus:
+http://biohackacademy.github.io/biofactory/class/6-magnetic-stirrer/&lt;/p&gt;
+
+&lt;p&gt;See you next week,&lt;/p&gt;
+
+&lt;p&gt;The BHA Team&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Mar 2015 14:57:00 +0100</pubDate>
+        <link>http://biohackacademy.github.io/biofactory/update/2015-3/2015/03/25/update-6.html</link>
+        <guid isPermaLink="true">http://biohackacademy.github.io/biofactory/update/2015-3/2015/03/25/update-6.html</guid>
+        
+        
+        <category>biofactory</category>
+        
+        <category>update</category>
+        
+        <category>2015-3</category>
+        
+      </item>
+    
+      <item>
+        <title>Update Week 5</title>
+        <description>&lt;p&gt;Hello everyone,&lt;/p&gt;
+
+&lt;p&gt;Fully packed incubators and surrounded by project boxes I am writing you this week’s update. We have an exciting week ahead of us, making our first steps towards isolating biomaterials using centrifugation and chromatography.&lt;/p&gt;
+
+&lt;h1 id=&quot;schedule-for-next-monday-and-tuesday&quot;&gt;Schedule for next Monday and Tuesday&lt;/h1&gt;
+
+&lt;p&gt;Monday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-11:30 DNA extraction
+11:30-11:45 Coffee break
+11:45-12:45 Chloroplast isolation
+12:45-13:45 Lunch break
+13:45-14:45 Chromatography
+13:45-18:00 Open lab, time to work on your projects and assignments&lt;/p&gt;
+
+&lt;p&gt;Tuesday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-12:30 Centrifuge construction and help with electronics
+12:30-13:30 Lunch break
+13:30-14:30 Assignment meeting
+14:30-18:00 Open Lab
+19:00-21:00 Class 6: Magnetic Stirrer&lt;/p&gt;
+
+&lt;h1 id=&quot;assigment&quot;&gt;Assigment&lt;/h1&gt;
+&lt;p&gt;This week you have only one assignment:&lt;/p&gt;
+
+&lt;p&gt;1) Start sketching your bioreactor controller in Fritzing.&lt;/p&gt;
+
+&lt;p&gt;The challenge for you is to submerge yourself into Fritzing. A bioreactor controller typically consists of the following parts: Temperature sensor, Heater, pH sensor, Stirrer, Substrate pump (for Fed Batch or Chemostat), Acid or Base pump, Optical sensor and Light sensor / switch.&lt;/p&gt;
+
+&lt;h1 id=&quot;spectrometers&quot;&gt;Spectrometers&lt;/h1&gt;
+&lt;p&gt;We made two designs for the spectrometer. One based on a webcam hack, that is relatively easy, and a second based on a CCD Array that’s linked to an Arduino. The former is relatively easy, while the latter is more suitable for hard core Arduino freaks.&lt;/p&gt;
+
+&lt;p&gt;http://biohackacademy.github.io/biofactory/class/7-spectrometer/&lt;/p&gt;
+
+&lt;p&gt;You may now order the components as listed in the Bill of Materials.&lt;/p&gt;
+
+&lt;h1 id=&quot;slides--videos&quot;&gt;Slides &amp;amp; videos&lt;/h1&gt;
+&lt;p&gt;As usual the video of yesterday’s lecture can be found on Vimeo. 
+https://vimeo.com/channels/biohackacademy
+http://biohackacademy.github.io/biofactory/class/5-centrifuge/&lt;/p&gt;
+
+&lt;p&gt;See you next week,&lt;/p&gt;
+
+&lt;p&gt;The BHA Team&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Mar 2015 14:57:00 +0100</pubDate>
+        <link>http://biohackacademy.github.io/biofactory/update/2015-3/2015/03/18/update-5.html</link>
+        <guid isPermaLink="true">http://biohackacademy.github.io/biofactory/update/2015-3/2015/03/18/update-5.html</guid>
+        
+        
+        <category>biofactory</category>
+        
+        <category>update</category>
+        
+        <category>2015-3</category>
+        
+      </item>
+    
+      <item>
+        <title>Update Week 4</title>
+        <description>&lt;p&gt;Hello biohackers,&lt;/p&gt;
+
+&lt;p&gt;We are already starting the third week of the Academy. Time flies when you are having fun!&lt;/p&gt;
+
+&lt;h1 id=&quot;schedule-for-next-monday-and-tuesday&quot;&gt;Schedule for next Monday and Tuesday&lt;/h1&gt;
+
+&lt;p&gt;Monday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-11:30 3D printing demo
+11:30-11:45 Coffee break
+11:45-12:45 Lasercutting demo
+12:45-13:45 Lunch break
+13:45-18:00 Open lab, time to work on your projects and assignments&lt;/p&gt;
+
+&lt;p&gt;Tuesday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-11:30 Sketchup workshop
+11:30-11:45 Coffee break
+11:45-12:45 OpenSCAD workshop
+12:45-13:30 Lunch break
+13:30-14:30 Assignment meeting
+14:30-18:00 Open Lab
+19:00-21:00 Class 4: Sterile hood&lt;/p&gt;
+
+&lt;h1 id=&quot;centrifuge&quot;&gt;Centrifuge&lt;/h1&gt;
+&lt;p&gt;The design, code and material list of the centrifuge has been finalized and can now be found in the Syllabus.
+http://biohackacademy.github.io/biofactory/class/5-centrifuge/&lt;/p&gt;
+
+&lt;p&gt;We decided to save the code and design files in a separate repository, to take full advantage of Github and keep better track of versions:
+https://github.com/BioHackAcademy/BHA_Centrifuge&lt;/p&gt;
+
+&lt;h1 id=&quot;assignments-and-weekly-assignment-meeting&quot;&gt;Assignments and weekly assignment meeting&lt;/h1&gt;
+&lt;p&gt;Most of you have already completed the first assignment: setting up a documentation site. In case your site is not yet on the list, please send me the link:
+http://biohackacademy.github.io/biofactory/participants/documentation/&lt;/p&gt;
+
+&lt;p&gt;From now on we will have a weekly “Assignment Meeting” on Tuesday at 13:30h. During the meeting everybody gets five minutes to present their progress and we’ll take a look at the outcomes of the assignments. I hope you will all succeed in recording a movie of your favorite microbe and post it on your documentation site.&lt;/p&gt;
+
+&lt;p&gt;The new assignment is: design a personal laboratory tool using the 3D / 2D techniques that were discussed last night. This is your chance to create a simple personal tube rack, microscope slide container or something far more sophisticated that I am sure you will come up with!&lt;/p&gt;
+
+&lt;h1 id=&quot;blog-post--fun-stuff&quot;&gt;Blog post &amp;amp; Fun stuff&lt;/h1&gt;
+&lt;p&gt;We posted a blog with some pictures on the Waag website. Please feel free to write a blog too. The Waag site has &amp;gt; 3 million visitors a year, so it’s worth writing for:
+http://waag.org/nl/blog/biohack-academy-first-steps&lt;/p&gt;
+
+&lt;p&gt;Don’t forgot to take a look at the fun stuff page regularly to see what others are up to, and please add any cool pictures or links to your documentation site:
+http://biohackacademy.github.io/biofactory/participants/fun-stuff/&lt;/p&gt;
+
+&lt;h1 id=&quot;lecture-documentation&quot;&gt;Lecture documentation&lt;/h1&gt;
+&lt;p&gt;The PDFs of last night’s lecture are already on the Syllabus. We also posted the OpenSCAD and Sketchup files of the Tube Rack:
+http://biohackacademy.github.io/biofactory/class/3-design/&lt;/p&gt;
+
+&lt;p&gt;The videos are on their way to the &lt;a href=&quot;https://vimeo.com/channels/880445&quot;&gt;Biohack Academy channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Good luck,&lt;/p&gt;
+
+&lt;p&gt;The BioHack Academy Team&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Mar 2015 14:57:00 +0100</pubDate>
+        <link>http://biohackacademy.github.io/biofactory/update/2015-3/2015/03/11/update-4.html</link>
+        <guid isPermaLink="true">http://biohackacademy.github.io/biofactory/update/2015-3/2015/03/11/update-4.html</guid>
+        
+        
+        <category>biofactory</category>
+        
+        <category>update</category>
+        
+        <category>2015-3</category>
+        
+      </item>
+    
+      <item>
+        <title>Update Week 4</title>
+        <description>&lt;p&gt;HDear biohackers,&lt;/p&gt;
+
+&lt;p&gt;Step by step you are getting closer to building up your labs. I am also really happy to see that you are extending our bio family with the introduction of new species: mycelium, slime molds, E coli and even small nematode worms: the C. elegans. Keep up the good work!&lt;/p&gt;
+
+&lt;h1 id=&quot;schedule-for-next-monday-and-tuesday&quot;&gt;Schedule for next Monday and Tuesday&lt;/h1&gt;
+
+&lt;p&gt;Monday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-11:30 Liquid culturing instruction
+11:30-11:45 Coffee break
+11:45-12:45 Liquid culturing practical
+12:45-13:45 Lunch break
+13:45-18:00 Open lab, time to work on your projects and assignments&lt;/p&gt;
+
+&lt;p&gt;Tuesday:&lt;/p&gt;
+
+&lt;p&gt;10:00-10:30 Doors open
+10:30-12:30 Continue with your liquid culture
+12:30-13:30 Lunch break
+13:30-14:30 Assignment meeting
+14:30-18:00 Open Lab
+19:00-21:00 Class 5: Centrifuge&lt;/p&gt;
+
+&lt;h1 id=&quot;assigment&quot;&gt;Assigment&lt;/h1&gt;
+&lt;p&gt;This week you have two assignments:&lt;/p&gt;
+
+&lt;p&gt;1) Search for previous projects within the Biohack community that are similar to your project and set up a small reference library on your Github Page.
+2) Start growing your organism in a liquid culture.&lt;/p&gt;
+
+&lt;p&gt;We will do assignment 2 together on Monday.&lt;/p&gt;
+
+&lt;h1 id=&quot;magnetic-stirrer&quot;&gt;Magnetic Stirrer&lt;/h1&gt;
+&lt;p&gt;The material list for the magnetic stirrer is now finished. You can go ahead and source the components.&lt;/p&gt;
+
+&lt;p&gt;http://biohackacademy.github.io/biofactory/class/6-magnetic-stirrer/&lt;/p&gt;
+
+&lt;h1 id=&quot;slides-videos-and-pictures&quot;&gt;Slides, videos and pictures&lt;/h1&gt;
+&lt;p&gt;The slides of last night’s lecture can now be found in the Syllabus. 
+Also the video is in the &lt;a href=&quot;https://vimeo.com/channels/biohackacademy/&quot;&gt;BioHack Academy Channel&lt;/a&gt;
+This time we also took some pictures of the lecture and posted it on the &lt;a href=&quot;http://biohackacademy.github.io/biofactory/participants/fun-stuff/&quot;&gt;fun page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;More information about the open source sterile hood that Hany and Veit are building will become available on their blog:
+http://waaglfc.tumblr.com&lt;/p&gt;
+
+&lt;p&gt;See you next week,&lt;/p&gt;
+
+&lt;p&gt;Pieter&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Mar 2015 14:57:00 +0100</pubDate>
+        <link>http://biohackacademy.github.io/biofactory/update/2015-3/2015/03/11/update-3.html</link>
+        <guid isPermaLink="true">http://biohackacademy.github.io/biofactory/update/2015-3/2015/03/11/update-3.html</guid>
+        
+        
+        <category>biofactory</category>
+        
+        <category>update</category>
+        
+        <category>2015-3</category>
+        
+      </item>
+    
+      <item>
+        <title>Update Week 2</title>
+        <description>&lt;p&gt;Hi everyone,&lt;/p&gt;
+
+&lt;p&gt;We hope you enjoyed the second lecture! You now know what cells are made of, and how to engineer your own devices to take a closer look.&lt;/p&gt;
+
+&lt;p&gt;The past two days I already saw great hacks of the original incubator design. Triple in size, transparent, remote controlled and speakers, keep up that great work! We look forward to your mad microscopes!&lt;/p&gt;
+
+&lt;p&gt;Don’t forget to submit your prototypes to ‘proud-to-hack’ sites like www.hackaday.com&lt;/p&gt;
+
+&lt;h1 id=&quot;slides-of-tonights-lecture&quot;&gt;Slides of tonight’s lecture&lt;/h1&gt;
+&lt;p&gt;PDF files of the slides of tonight’s lecture can now be found in the Syllabus: 
+&lt;a href=&quot;http://biohackacademy.github.io/biofactory/class/2-microscope/&quot;&gt;Microscope&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It is certainly worth it to take a look at the videos that Lucas linked in his slides.&lt;/p&gt;
+
+&lt;p&gt;Also, I have attached a spreadsheet with the formulas and calculations for designing your own microscope from lenses.&lt;/p&gt;
+
+&lt;h1 id=&quot;schedule-for-monday-and-tuesday&quot;&gt;Schedule for Monday and Tuesday&lt;/h1&gt;
+&lt;p&gt;On Monday and Tuesday we will demonstrate the microscopy techniques and 2 staining methodologies. The schedule is in the PDF attached to this email.&lt;/p&gt;
+
+&lt;p&gt;During the Openlab session we will also offer an Arduino introduction workshop for those of you that need extra support on electronics and programming.&lt;/p&gt;
+
+&lt;h1 id=&quot;materials-for-the-sterile-hood&quot;&gt;Materials for the Sterile Hood&lt;/h1&gt;
+&lt;p&gt;In two weeks we will build our own Sterile Hoods. The recommended material list is finalized: &lt;a href=&quot;http://biohackacademy.github.io/biofactory/class/4-sterile-hood/&quot;&gt;Sterile Hood&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;fun-stuff&quot;&gt;Fun stuff&lt;/h1&gt;
+&lt;p&gt;Having fun in the Academy? Share your picture / video / story on the fun page! Take a look at the pictures of our first lecture and from Brasil posted here:
+&lt;a href=&quot;http://biohackacademy.github.io/biofactory/participants/fun-stuff/&quot;&gt;Fun Stuff&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;last-weeks-assignment&quot;&gt;Last week’s assignment&lt;/h1&gt;
+&lt;p&gt;Please send us your documentation site, once you have set it up. We will add a link to the list. Use your site to share your designs and keep track of experiments:
+&lt;a href=&quot;http://biohackacademy.github.io/biofactory/participants/documentation/&quot;&gt;Documentation sites&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;this-weeks-assignment&quot;&gt;This week’s assignment&lt;/h1&gt;
+&lt;p&gt;Publish your microscopy video along with a license you find most appropriate on your documentation site. Obviously we would recommend using a Creative Commons license.&lt;/p&gt;
+
+&lt;h1 id=&quot;biohack-academy-video-channel&quot;&gt;BioHack Academy video channel&lt;/h1&gt;
+&lt;p&gt;All the lectures are recorded and made available as quickly as we can in the &lt;a href=&quot;https://vimeo.com/channels/880445&quot;&gt;Biohack Academy channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We expect to upload tonight’s lecture around tomorrow by the end of the day.&lt;/p&gt;
+
+&lt;p&gt;All the best, and have fun hacking!&lt;/p&gt;
+
+&lt;p&gt;The Biohack Academy Team&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Feb 2015 14:57:00 +0100</pubDate>
+        <link>http://biohackacademy.github.io/biofactory/update/2015-2/2015/02/25/update-2.html</link>
+        <guid isPermaLink="true">http://biohackacademy.github.io/biofactory/update/2015-2/2015/02/25/update-2.html</guid>
+        
+        
+        <category>biofactory</category>
+        
+        <category>update</category>
+        
+        <category>2015-2</category>
+        
+      </item>
+    
+      <item>
+        <title>Update Week 1</title>
+        <description>&lt;p&gt;Hello everyone,&lt;/p&gt;
+
+&lt;p&gt;Thank you very much for joining the excellent session we had yesterday. It was really great to meet you all finally and get to know you a little bit.&lt;/p&gt;
+
+&lt;h1 id=&quot;assignment&quot;&gt;Assignment&lt;/h1&gt;
+
+&lt;p&gt;As said during the lecture, you will get an assignment every week. The first assignment is to set up a documentation site. We recommend you to use Github, because it helps you by sharing design files easily and keep track of versions. Some instructions on how to get started can be found in this slide deck:
+&lt;a href=&quot;http://biohackacademy.github.io/biofactory/class/1/pdf/4%20Documentation.pdf&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Please send me a link to your documentation site. I will create a page to collect all links on the Syllabus.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;preparing-for-the-practicals&quot;&gt;Preparing for the practicals&lt;/h1&gt;
+
+&lt;p&gt;On Monday we will start with the practicals. There are 3 practical guides that you may choose from listed in the Syllabus, about yeast, bacteria and contamination:
+&lt;a href=&quot;http://biohackacademy.github.io/biofactory/class/1-incubator/&quot;&gt;Class 1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Apart from that you may also start immediately with growing your favorite microbe. Pick one from the culture collection and try to read up on what kind of nutrients and growth conditions the microbe needs:
+&lt;a href=&quot;http://biohackacademy.github.io/biofactory/annex/culture-collection/&quot;&gt;Culture Collection&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;reserving-the-machines&quot;&gt;Reserving the machines&lt;/h1&gt;
+
+&lt;p&gt;In order to construct the devices, you will probably need to cut wood or plastic. The lasercutter of our FabLab is reserve don Monday’s and Tuesday’s for that. Please use this public Google Calendar to block chunks of half an hour.
+&lt;a href=&quot;http://biohackacademy.github.io/biofactory/annex/machine-equipment-guide/&quot;&gt;Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;studying-the-slides&quot;&gt;Studying the slides&lt;/h1&gt;
+
+&lt;p&gt;In yesterday’s presentation contained a number of valuable examples for making your own electronical circuits. You might like to take another look.&lt;/p&gt;
+
+&lt;p&gt;The slides of yesterday’s session can be found in the Syllabus, each topic under the heading “Schedule” now links to a PDF:
+&lt;a href=&quot;http://biohackacademy.github.io/biofactory/class/1-incubator/&quot;&gt;Schedule&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The videos take a bit more effort to edit, but will also be made available soon.&lt;/p&gt;
+
+&lt;h1 id=&quot;next-weeks-lecture&quot;&gt;Next week’s lecture&lt;/h1&gt;
+
+&lt;p&gt;Next week’s lecture will be centered around microscopy and we will learn more about microbial physiology and nutrients. Coffee and tea will be waiting for you from 18:30h and we will start the lecture at 19:00h.&lt;/p&gt;
+
+&lt;p&gt;All the best,&lt;/p&gt;
+
+&lt;p&gt;Maria, Hany, Lucas, Veit and Pieter&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Feb 2015 14:57:00 +0100</pubDate>
+        <link>http://biohackacademy.github.io/biofactory/update/2015-2/2015/02/18/update-1.html</link>
+        <guid isPermaLink="true">http://biohackacademy.github.io/biofactory/update/2015-2/2015/02/18/update-1.html</guid>
+        
+        
+        <category>biofactory</category>
+        
+        <category>update</category>
+        
+        <category>2015-2</category>
+        
+      </item>
+    
+  </channel>
+</rss>

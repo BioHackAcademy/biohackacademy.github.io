@@ -1,0 +1,362 @@
+/*
+	This file is part of Waag's BioHack Academy Code.
+
+	Waag's BioHack Academy Code is free software: you can 
+	redistribute it and/or modify it under the terms of the GNU 
+	General Public License as published by the Free Software 
+	Foundation, either version 3 of the License, or (at your option) 
+	any later version.
+
+	Waag's BioHack Academy Code is distributed in the hope 
+	that it will be useful, but WITHOUT ANY WARRANTY; without even 
+	the implied warranty of MERCHANTABILITY or FITNESS FOR A 
+	PARTICULAR PURPOSE.  See the GNU General Public License for more 
+	details.
+
+	You should have received a copy of the GNU General Public License
+	along with Waag's BioHack Academy Code. If not, see 
+	<http://www.gnu.org/licenses/>.
+*/
+
+
+/* Attribution
+
+MOSFET code derived from: 	http://bildr.org/2012/03/rfp30n06le-arduino/
+4 digit 7 segment code derived from: 	http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Components/LED/_7Seg_Example.pde
+button code derived from: 	http://arduino.cc/en/tutorial/button
+Thermistor code derived from: http://computers.tutsplus.com/tutorials/how-to-read-temperatures-with-arduino--mac-53714
+
+NOTICE for first time users:
+- Try to build the circuits and run the sketches in the above examples prior to using this code
+
+*/
+
+// Include libraries
+#include <math.h>    // loads a library with more advanced math functions
+
+// Define pins
+#define fanPin 3     // The mosfet that drives the 80mm fan is connected to pin 3
+#define relayPin 2   // Pin for the relay that controls the 100W light
+#define buttonPin1 7 // Pin for the push button left of the screen
+#define buttonPin2 8 // Pin for the push button right of the screen
+#define ledPin 13    // Arduino nboard LED pin used as indicator
+
+// Display pins
+//int digit1 = 11; //PWM Display pin 1
+int digit2 = 10; //PWM Display pin 2
+int digit3 = 9; //PWM Display pin 6
+//int digit4 = 6; //PWM Display pin 8
+int segA = A1; //Display pin 14
+int segB = 12; //Display pin 16
+int segC = 4; //Display pin 13
+int segD = 5; //Display pin 3
+int segE = A0; //Display pin 5
+int segF = 6; //Display pin 11
+int segG = 11; //Display pin 15
+// Connected to ground
+// Display pin 7: dots
+// Display pin 4 & 12: semi colon
+// Display pin 9 & 10: degree
+// Display pin 1 & 8: digit 1 & 4
+
+// Define variables
+int targetTemp = 18;   // Initial target temperature
+int button1State = 0;  // variable for reading the pushbutton status
+int button2State = 0;  // variable for reading the pushbutton status
+
+// User interaction vairables
+boolean set_mode = false;
+long set_time = 5000; // max set mode time 
+long begin_set_time = 0;
+long switch_time = 3000;
+long begin_switch_time = 0;
+long temp_time = 2000;
+long begin_temp_time = 0;
+
+// Vars
+int val;                //Create an integer variable
+double temp;            //Variable to hold a temperature value
+  
+void setup() {            //This function gets called when the Arduino starts
+  Serial.begin(115200);   //This code sets up the Serial port at 115200 baud rate
+  
+  // Set pin modes
+  pinMode(fanPin, OUTPUT);  // Fanpin
+  pinMode(ledPin, OUTPUT); // initialize the LED pin as an output:
+  pinMode(buttonPin1, INPUT); // initialize the pushbutton pin as an input:  
+  pinMode(buttonPin2, INPUT); // initialize the pushbutton pin as an input:
+  pinMode(relayPin, OUTPUT);
+
+  // 4 Digit display
+  pinMode(segA, OUTPUT);
+  pinMode(segB, OUTPUT);
+  pinMode(segC, OUTPUT);
+  pinMode(segD, OUTPUT);
+  pinMode(segE, OUTPUT);
+  pinMode(segF, OUTPUT);
+  pinMode(segG, OUTPUT);
+
+  // pinMode(digit1, OUTPUT);
+  pinMode(digit2, OUTPUT);
+  pinMode(digit3, OUTPUT);
+  // pinMode(digit4, OUTPUT);  
+  
+  // Set time
+  begin_set_time = millis();  
+  begin_switch_time = millis();  
+}
+
+// Thermistor function
+double Thermister(int RawADC) {  //Function to perform the fancy math of the Steinhart-Hart equation
+  double Temp;
+  Temp = log(((10240000/RawADC) - 10000));
+  Temp = 1 / (0.001129148 + (0.000234125 + (0.0000000876741 * Temp * Temp ))* Temp );
+  Temp = Temp - 273.15;              // Convert Kelvin to Celsius
+  //Temp = (Temp * 9.0)/ 5.0 + 32.0; // Celsius to Fahrenheit - comment out this line if you need Celsius
+  return Temp;
+}
+ 
+void loop() {             //This function loops while the arduino is powered
+
+  if((millis() - begin_temp_time) > temp_time) {
+    val=analogRead(5);      //Read the analog port 0 and store the value in val
+    temp=Thermister(val);   //Runs the fancy math on the raw analog value
+    Serial.println(temp);   //Print the value to the serial port
+    begin_temp_time = millis();
+  }
+  
+  if((millis() - begin_switch_time) > switch_time) {
+    // Turn the 100W infrared light on or of depending on temperature
+    if (temp < targetTemp) {
+      digitalWrite(relayPin, HIGH);
+      begin_switch_time = millis(); 
+    }
+    else {
+      digitalWrite(relayPin, LOW);
+      begin_switch_time = millis(); 
+    }
+  }
+  
+  // Keep spinning the fan
+  digitalWrite(fanPin, HIGH);
+  
+  // Read the state of the pushbutton value:
+  button1State = digitalRead(buttonPin1);
+  button2State = digitalRead(buttonPin2); 
+ 
+  // Check if the pushbutton is pressed.
+  // If it is, the buttonState is HIGH:
+  if (button1State == HIGH) {     
+    // turn LED on:    
+    digitalWrite(ledPin, HIGH);  
+    ++targetTemp;      
+    begin_set_time = millis();        // Reset set mode counter
+    if(targetTemp > 50) targetTemp = 50;  // Sanity check, do not allow temperatures higher than 50  
+    delay(500);
+  } 
+  else if (button2State == HIGH) {
+    digitalWrite(ledPin, HIGH);
+    --targetTemp;
+    begin_set_time = millis(); // Reset set mode counter
+    if(targetTemp < 0) targetTemp = 0;  // Sanity check, do not allow temperatures higher than 50    
+    delay(500);
+  }
+  else {
+    // turn LED off:
+    digitalWrite(ledPin, LOW); 
+    
+  }  
+
+  button1State = 0;
+  button2State = 0; 
+  
+  // Print the new target temperature to the Serial port
+  Serial.println(targetTemp);
+
+  // Decide what temperature to display
+  if((millis() - begin_set_time) < set_time) {
+    // Display set time
+    displayNumber(constrain(targetTemp,0,99)*10);
+  }
+  else {
+    // Display current temperature
+    displayNumber(constrain(temp,0,99)*10);
+  }
+}
+
+// Functions for controlling the LCD display
+//Let's define a variable called brightness that varies from:
+//5000 blindingly bright (15.7mA current draw per digit)
+//2000 shockingly bright (11.4mA current draw per digit)
+//1000 pretty bright (5.9mA)
+//500 normal (3mA)
+//200 dim but readable (1.4mA)
+//50 dim but readable (0.56mA)
+//5 dim but readable (0.31mA)
+//1 dim but readable in dark (0.28mA)
+
+void displayNumber(int toDisplay) {
+	#define DISPLAY_BRIGHTNESS  500
+
+	#define DIGIT_ON  HIGH
+	#define DIGIT_OFF  LOW
+
+	long beginTime = millis();
+
+	for(int digit = 4 ; digit > 0 ; digit--) {
+
+		//Turn on a digit for a short amount of time
+		switch(digit) {
+			case 1:
+				//digitalWrite(digit1, DIGIT_ON);
+			break;
+			case 2:
+				digitalWrite(digit2, DIGIT_ON);
+			break;
+			case 3:
+				digitalWrite(digit3, DIGIT_ON);
+			break;
+			case 4:
+				//digitalWrite(digit4, DIGIT_ON);
+			break;
+		}
+
+		//Turn on the right segments for this digit
+		lightNumber(toDisplay % 10);
+		toDisplay /= 10;
+
+		delayMicroseconds(DISPLAY_BRIGHTNESS); //Display this digit for a fraction of a second (between 1us and 5000us, 500 is pretty good)
+
+		//Turn off all segments
+		lightNumber(10); 
+
+		//Turn off all digits
+		//digitalWrite(digit1, DIGIT_OFF);
+		digitalWrite(digit2, DIGIT_OFF);
+		digitalWrite(digit3, DIGIT_OFF);
+		//digitalWrite(digit4, DIGIT_OFF);
+	}
+
+	while( (millis() - beginTime) < 10) ; //Wait for 20ms to pass before we paint the display again
+}
+
+//Given a number, turns on those segments
+//If number == 10, then turn off number
+void lightNumber(int numberToDisplay) {
+
+	#define SEGMENT_ON  LOW
+	#define SEGMENT_OFF HIGH
+
+	switch (numberToDisplay){
+
+		case 0:
+			digitalWrite(segA, SEGMENT_ON);
+			digitalWrite(segB, SEGMENT_ON);
+			digitalWrite(segC, SEGMENT_ON);
+			digitalWrite(segD, SEGMENT_ON);
+			digitalWrite(segE, SEGMENT_ON);
+			digitalWrite(segF, SEGMENT_ON);
+			digitalWrite(segG, SEGMENT_OFF);
+		break;
+
+		case 1:
+			digitalWrite(segA, SEGMENT_OFF);
+			digitalWrite(segB, SEGMENT_ON);
+			digitalWrite(segC, SEGMENT_ON);
+			digitalWrite(segD, SEGMENT_OFF);
+			digitalWrite(segE, SEGMENT_OFF);
+			digitalWrite(segF, SEGMENT_OFF);
+			digitalWrite(segG, SEGMENT_OFF);
+		break;
+
+		case 2:
+			digitalWrite(segA, SEGMENT_ON);
+			digitalWrite(segB, SEGMENT_ON);
+			digitalWrite(segC, SEGMENT_OFF);
+			digitalWrite(segD, SEGMENT_ON);
+			digitalWrite(segE, SEGMENT_ON);
+			digitalWrite(segF, SEGMENT_OFF);
+			digitalWrite(segG, SEGMENT_ON);
+		break;
+
+		case 3:
+			digitalWrite(segA, SEGMENT_ON);
+			digitalWrite(segB, SEGMENT_ON);
+			digitalWrite(segC, SEGMENT_ON);
+			digitalWrite(segD, SEGMENT_ON);
+			digitalWrite(segE, SEGMENT_OFF);
+			digitalWrite(segF, SEGMENT_OFF);
+			digitalWrite(segG, SEGMENT_ON);
+		break;
+
+		case 4:
+			digitalWrite(segA, SEGMENT_OFF);
+			digitalWrite(segB, SEGMENT_ON);
+			digitalWrite(segC, SEGMENT_ON);
+			digitalWrite(segD, SEGMENT_OFF);
+			digitalWrite(segE, SEGMENT_OFF);
+			digitalWrite(segF, SEGMENT_ON);
+			digitalWrite(segG, SEGMENT_ON);
+		break;
+
+		case 5:
+			digitalWrite(segA, SEGMENT_ON);
+			digitalWrite(segB, SEGMENT_OFF);
+			digitalWrite(segC, SEGMENT_ON);
+			digitalWrite(segD, SEGMENT_ON);
+			digitalWrite(segE, SEGMENT_OFF);
+			digitalWrite(segF, SEGMENT_ON);
+			digitalWrite(segG, SEGMENT_ON);
+		break;
+
+		case 6:
+			digitalWrite(segA, SEGMENT_ON);
+			digitalWrite(segB, SEGMENT_OFF);
+			digitalWrite(segC, SEGMENT_ON);
+			digitalWrite(segD, SEGMENT_ON);
+			digitalWrite(segE, SEGMENT_ON);
+			digitalWrite(segF, SEGMENT_ON);
+			digitalWrite(segG, SEGMENT_ON);
+		break;
+
+		case 7:
+			digitalWrite(segA, SEGMENT_ON);
+			digitalWrite(segB, SEGMENT_ON);
+			digitalWrite(segC, SEGMENT_ON);
+			digitalWrite(segD, SEGMENT_OFF);
+			digitalWrite(segE, SEGMENT_OFF);
+			digitalWrite(segF, SEGMENT_OFF);
+			digitalWrite(segG, SEGMENT_OFF);
+		break;
+
+		case 8:
+			digitalWrite(segA, SEGMENT_ON);
+			digitalWrite(segB, SEGMENT_ON);
+			digitalWrite(segC, SEGMENT_ON);
+			digitalWrite(segD, SEGMENT_ON);
+			digitalWrite(segE, SEGMENT_ON);
+			digitalWrite(segF, SEGMENT_ON);
+			digitalWrite(segG, SEGMENT_ON);
+		break;
+
+		case 9:
+			digitalWrite(segA, SEGMENT_ON);
+			digitalWrite(segB, SEGMENT_ON);
+			digitalWrite(segC, SEGMENT_ON);
+			digitalWrite(segD, SEGMENT_ON);
+			digitalWrite(segE, SEGMENT_OFF);
+			digitalWrite(segF, SEGMENT_ON);
+			digitalWrite(segG, SEGMENT_ON);
+		break;
+
+		case 10:
+			digitalWrite(segA, SEGMENT_OFF);
+			digitalWrite(segB, SEGMENT_OFF);
+			digitalWrite(segC, SEGMENT_OFF);
+			digitalWrite(segD, SEGMENT_OFF);
+			digitalWrite(segE, SEGMENT_OFF);
+			digitalWrite(segF, SEGMENT_OFF);
+			digitalWrite(segG, SEGMENT_OFF);
+		break;
+	}
+}
